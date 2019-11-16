@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">KPageIndicator</string>
+
+    <string name="page_count">Page Count:</string>
+    <string name="set_page_count">Set Page Count</string>
+    <string name="animation_type">Animation Type:</string>
+    <string name="style">Style:</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="enter_number_of_pages">Enter number of pages</string>
+    <string name="style_default">Default</string>
+    <string name="style_enlarged">Enlarged</string>
+    <string name="anim_none">None</string>
+    <string name="anim_linear">Linear</string>
+    <string name="anim_enlarge">Enlarge</string>
+
+
+</resources>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="KPageIndicator">
+
+        <attr name="current_page" format="integer" />
+        <attr name="page_count" format="integer" />
+
+        <!-- Dimens -->
+        <attr name="vertical_indicator_spacing" format="dimension" />
+        <attr name="spacing_between_indicators" format="dimension" />
+
+        <!-- Page indicator animation -->
+        <attr name="indicator_animation" format="enum">
+            <enum name="NONE" value="0" />
+            <enum name="LINEAR" value="1" />
+            <enum name="ENLARGE" value="2" />
+        </attr>
+
+        <!-- Page indicator style -->
+        <attr name="indicator_style" format="enum">
+            <enum name="DEFAULT" value="0" />
+            <enum name="ENLARGED" value="1" />
+        </attr>
+
+        <!-- Page indicator colors -->
+        <attr name="current_indicator_color" format="color" />
+        <attr name="default_indicator_color" format="color" />
+
+    </declare-styleable>
+
+    <dimen name="default_vertical_indicator_spacing">5dp</dimen>
+    <dimen name="default_spacing_between_indicators">5dp</dimen>
+    <dimen name="default_height">10dp</dimen>
+
+</resources>
